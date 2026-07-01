@@ -1,0 +1,14 @@
+.venv/
+venv/
+**/__pycache__/
+.venv/
+venv/
+*.MOV
+*.pt
+**/__pycache__/
+.venv/
+venv/
+*.MOV
+*.pt
+*.mp4
+**/__pycache__/

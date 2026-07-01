@@ -1,0 +1,13 @@
+train: D:/yolo11_project2/datasets/train
+val: D:/yolo11_project2/datasets/valid
+test: D:/yolo11_project2/datasets/test
+
+nc: 2
+names: ['car', 'motorcycle']
+
+roboflow:
+  workspace: car-or-motorcycle
+  project: car-or-motorcycle-brj96
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/car-or-motorcycle/car-or-motorcycle-brj96/dataset/1
