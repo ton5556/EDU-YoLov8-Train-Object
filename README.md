@@ -47,6 +47,12 @@ EDU-YoLov8-Train-Object/
    ```bash
    pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu126
    pip install ultralytics
+
+   # 1. Uninstall the current CPU version
+   pip uninstall torch torchvision torchaudio -y
+
+   # 2. Install the GPU-compatible version
+   pip install torch torchvision torchaudio --index-url https://pytorch.org
    ```
 
 4. Open the project in your editor (optional):
